@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #141414;
+  background-color: #010818;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.sec {
+  color: #039357;
+}
+
+.btn {
+  background-color: #039357;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color transform 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #015432;
+  transform: scale(1.02);
+}
+
+.btn:active {
+  background-color: #004f2e;
+  transform: scale(0.98);
+}

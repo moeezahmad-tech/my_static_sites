@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Agrandir-Wide-Light";
+  src: url(../fonts/Agrandir-Wide-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Agrandir-Wide-Bold";
+  src: url(../fonts/agrandir-wide-bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../fonts/Montserrat\ Light.otf) format("opentype");
+}
+
+
+:root{
+  --primary-color: #713274;
+  --secondary-color: #fff9ff;
+  --accent-color: #1e2133;
+  --text-color:#713274;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "TikTok Sans", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: #fff9ff;
+  color: #713274;
+}
+body {
+  width: 100%;
+  overflow-x: hidden !important;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+h1,
+h2 {
+  font-family: "Agrandir-Wide-Bold", sans-serif;
+}
+
+p,
+b,
+span {
+  font-family: "Montserrat-Light", sans-serif;
+  font-weight: 100;
+}
+

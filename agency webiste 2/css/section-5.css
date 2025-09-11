@@ -1,0 +1,52 @@
+.section-5 {
+  display: flex;
+  background-color: white;
+  padding: 50px 20px;
+  > div {
+    flex: 1;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 40%;
+
+    h2 {
+      font-size: 50px;
+      line-height: 1.1;
+      color: #039357;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      letter-spacing: 1px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      align-self: center;
+      max-width: 600px;
+    }
+    &:hover {
+      transform: translateY(-10px);
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section-5 {
+    flex-direction: column;
+    > div {
+      width: 100%;
+      padding: 20px 0;
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

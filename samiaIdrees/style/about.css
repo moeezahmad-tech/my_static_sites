@@ -1,0 +1,46 @@
+#about {
+  display: flex;
+  align-items: center;
+  padding: 50px 5vw;
+  gap: 40px;
+  flex-wrap: nowrap;
+  width: 100%;
+
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+  }
+
+  div {
+    width: 50%;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+  }
+  button{
+    background-color: transparent;
+    border: 1px solid #f7a901;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #f7a901;
+    margin-top: 20px;
+
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    i{
+        font-size: 30px;
+        line-height: 0.7;
+    }
+
+    &:hover {
+      background-color: #f7a901;
+      color: #fff;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}

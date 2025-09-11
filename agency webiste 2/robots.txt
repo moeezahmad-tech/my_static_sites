@@ -1,0 +1,12 @@
+# robots.txt for EagleX Media
+
+User-agent: *
+Allow: /index.html
+Allow: /thankyou.html
+Disallow: /e404.html
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://eaglexmedia.com/sitemap.xml

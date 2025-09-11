@@ -1,0 +1,127 @@
+.section-4 {
+  border-top: 1px solid rgba(128, 128, 128, 0.321);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+
+  .top {
+    h2 {
+      font-size: 50px;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 20px;
+      color: gray;
+    }
+  }
+
+  .bottom {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    div {
+      width: 25%;
+
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      color: black;
+      padding: 20px;
+      position: relative;
+      margin-top: 60px;
+      padding-top: 80px;
+      border-radius: 10px;
+      align-items: center;
+
+      .icon-wrapper {
+        background-color: #039357;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        aspect-ratio: 1/1;
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        animation: up_down 2s infinite;
+        position: absolute;
+        top: -40px;
+
+        svg {
+          width: 50px;
+          height: 50px;
+          fill: white;
+          margin: 0;
+        }
+      }
+
+      h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 14px;
+        padding-bottom: 20px;
+        text-align: justify;
+      }
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s ease;
+        background-color: #009758;
+        color: white;
+
+
+        .icon-wrapper {
+          background-color: white;
+
+          svg {
+            fill: #039357;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    padding: 50px 5px;
+
+    .bottom div {
+      width: 40%;
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 50px 5px;
+
+    .bottom div {
+      width: 80%;
+      padding: 15px;
+      padding-top: 70px;
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}

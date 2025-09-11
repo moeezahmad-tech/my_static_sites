@@ -1,0 +1,27 @@
+# Force PHP 8 (from your hosting requirement)
+AddHandler x-httpd-php80 .php
+
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Allow homepage, thankyou, and root
+RewriteCond %{REQUEST_URI} !^/index\.html$
+RewriteCond %{REQUEST_URI} !^/thankyou\.html$
+RewriteCond %{REQUEST_URI} !^/$
+
+# Allow error page
+RewriteCond %{REQUEST_URI} !^/e404\.html$
+
+# Allow important SEO files
+RewriteCond %{REQUEST_URI} !^/robots\.txt$
+RewriteCond %{REQUEST_URI} !^/sitemap\.xml$
+
+# Allow static asset folders (css, js, images, svg, animations)
+RewriteCond %{REQUEST_URI} !^/css/
+RewriteCond %{REQUEST_URI} !^/js/
+RewriteCond %{REQUEST_URI} !^/images/
+RewriteCond %{REQUEST_URI} !^/svg/
+RewriteCond %{REQUEST_URI} !^/animations/
+
+# Redirect everything else to e404.html
+RewriteRule ^.*$ /e404.html [L,R=302]

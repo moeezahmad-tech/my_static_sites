@@ -38,6 +38,13 @@ nav {
     }
   }
 
+  .icons{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: #008080;
+  }
+
   .nav-icon {
     display: none;
     font-size: 30px;
