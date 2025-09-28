@@ -9,15 +9,14 @@
     color: white;
     border-radius: 12px;
     padding: 1.5rem;
-    box-shadow: 0 4px 8px var(--lowblue);
+    box-shadow: 0 2px 4px #1e8fff3b;
     max-width: 290px;
     flex: 1 1 300px;
     position: relative;
     margin-top: 20px;
     transition: all 0.3s ease;
-    cursor:unset;  
-    
-    
+    cursor: unset;
+
     .service-title {
       font-size: 1.2rem;
       font-weight: bold;
@@ -33,16 +32,15 @@
       padding: 10px 0;
       color: var(--blue);
     }
-    
+
     &:hover {
       box-shadow: 0 6px 12px var(--lowblue);
       transform: translateY(-5px);
       background-color: var(--blue);
       color: white;
-      .bi{
+      .bi {
         color: #ffffff;
       }
     }
   }
-  
 }

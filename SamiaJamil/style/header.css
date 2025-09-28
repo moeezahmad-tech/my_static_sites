@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  height: 110vh;
+  .header-text {
+    padding: 3vw;
+    width: 900px;
+    h1 {
+      font-family: "Agrandir-Wide-Bold", sans-serif;
+      font-size: clamp(40px, 8vw, 60px);
+      color: #713274;
+      line-height: 1;
+      min-width: 300px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: clamp(16px, 2vw, 20px);
+      margin-bottom: 20px;
+      font-family: "Montserrat-Light", sans-serif;
+      color: #713274;
+      letter-spacing: 1px;
+      line-height: 1.2;
+      min-width: 300px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header img{
+    display: none;
+  }
+}

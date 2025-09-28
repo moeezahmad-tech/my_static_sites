@@ -16,6 +16,7 @@
     align-items: center;
     h1{
         font-size: 3rem;
+        line-height: 1;
         color: var(--blue);
         text-transform: uppercase;
         text-align: center;

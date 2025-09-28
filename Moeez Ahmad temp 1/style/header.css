@@ -20,15 +20,15 @@ header {
     h1 {
       color: var(--blue);
       text-transform: uppercase;
-      font-size: 5vmax;
-      line-height: 0.9;
+      font-size: clamp(5vmax, 5vw, 5vmax);
+      line-height: 1;
       position: relative;
       z-index: 11;
     }
     h2 {
       text-transform: uppercase;
-      font-size: 2.5vmax;
-      line-height: 0.9;
+      font-size: clamp(2.5vmax, 1vw, 2vmax);
+      line-height: 1;
       position: relative;
       z-index: 12;
       font-weight: 300;
@@ -79,18 +79,13 @@ header {
 
 @media screen and (max-width: 715px) {
   header {
-    height: auto;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    height: 100vh;
     div {
       gap: -10px;
       padding-top: 30px;
-      h1 {
-        font-size: 7vmax;
-      }
-      h2 {
-        font-size: 4vmax;
-      }
     }
   }
 }

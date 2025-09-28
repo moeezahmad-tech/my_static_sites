@@ -53,7 +53,6 @@ header {
   }
   section {
     width: 33%;
-
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -77,7 +76,7 @@ header {
 
     img {
       height: 80vh;
-      align-self: end;
+      align-self: center;
     }
 
     .circle {
