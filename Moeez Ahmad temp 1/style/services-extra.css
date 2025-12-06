@@ -30,13 +30,13 @@
     .bi {
       font-size: 30px;
       padding: 10px 0;
-      color: var(--blue);
+      color: #006eda;
     }
 
     &:hover {
-      box-shadow: 0 6px 12px var(--lowblue);
+      box-shadow: 0 6px 12px #1e8fff6c;
       transform: translateY(-5px);
-      background-color: var(--blue);
+      background-color: #006eda;
       color: white;
       .bi {
         color: #ffffff;

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Editing</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/header3.css">
+    <link rel="stylesheet" href="style/footer.css">
+
+    <link rel="icon" href="images/favicon.webp" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon.webp" />
+
+
+    <style>
+        .videoEditing {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            iframe {
+                width: 28%;
+                height: auto;
+                margin: 1vw;
+                filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.247));
+                aspect-ratio: 16/9;
+                border-radius: 10px;
+            }
+            
+            @media screen and (max-width: 600px) {
+                iframe {
+                    width: 45%;
+                    aspect-ratio: 16/9;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <nav id="nav">
+        <span>
+            <img loading="lazy" src="images/logo.webp" alt="TechKreative Logo"
+                srcset="images/low-logo.webp 400w, images/logo.webp 800w" sizes="(max-width: 600px) 400px, 800px">
+            <h2> <span class="telegrafBold">Tech</span><span class="telegrafLight sec">Kreative</span> </h2>
+        </span>
+
+
+        <ul>
+            <li><a href="index.html#nav">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <!-- <li><a href="packages.html">Packages</a></li> -->
+        </ul>
+        <section class="icons">
+            <a class="bi bi-instagram" href="https://www.instagram.com/techkreative/"></a>
+            <a class="bi bi-facebook" href="https://www.facebook.com/profile.php?id=61573636854887"></a>
+            <a class="bi bi-linkedin" href="https://www.linkedin.com/company/107565160"></a>
+            <a class="bi bi-whatsapp"
+                href="https://api.whatsapp.com/send?phone=923259491349&text=Hi, I got your Number from Tech Kreative"></a>
+        </section>
+
+        <div class="nav-icon">
+            <i class="bi bi-list"></i>
+        </div>
+    </nav>
+
+
+
+
+    <header>
+        <div>
+            <h1><span class="sec">Video</span> Editing</h1>
+            <p>
+
+                Elevate your brand's presence on LinkedIn with our expert branding services. We specialize in creating
+                compelling profiles, engaging content, and strategic marketing plans that help you connect with your
+                professional audience and grow your network.
+
+            </p>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="videoEditing">
+        <iframe src="https://www.youtube.com/embed/bu0799qvWY0" title="Finance Videos" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe src="https://www.youtube.com/embed/ST_HBKU96lA" title="YouTube Faceless Video Editing – Long Form"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe src="https://www.youtube.com/embed/8tM_0xGsoDk"
+            title="Mini Documentary Edit – Doja Cat (1.5 Minutes, After Effects)" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe src="https://www.youtube.com/embed/3Wtoo5sz4ps"
+            title="Talking Head / Interview Style Video Editing – Professional &amp; Polished" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+
+
+    <footer>
+        <p>
+            &copy; 2025 TechKreative. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="js/nav.js"></script>
+
+</body>
+
+</html>

@@ -15,7 +15,7 @@ nav {
     gap: 40px;
     a {
       color: rgb(255, 255, 255);
-      font-size: small;
+      font-size: 16px;
       text-decoration: none;
       position: relative;
       z-index: 11;
@@ -24,6 +24,19 @@ nav {
   i {
     font-size: 28px !important;
     cursor: pointer;
+  }
+  .socialMedia {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 12px;
+    a {
+      color: white;
+      font-size: 12px;
+      i{
+        font-size: 20px  !important;
+      }
+    }
   }
   .button {
     padding: 7px 15px;

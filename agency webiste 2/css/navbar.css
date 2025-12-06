@@ -13,9 +13,13 @@ nav {
     justify-content: center;
 
     img {
-      width: 40px;
+      width: 80px;
       object-fit: contain;
       margin-right: 20px;
+      border-radius: 8px; 
+      filter: drop-shadow(0 0px 12px rgba(99, 99, 99, 0.45));
+      transition: box-shadow 0.25s ease, transform 0.25s ease;
+
     }
 
     h2 {

@@ -17,7 +17,7 @@
     h1{
         font-size: 3rem;
         line-height: 1;
-        color: var(--blue);
+        color: #006eda;
         text-transform: uppercase;
         text-align: center;
     }
@@ -99,7 +99,7 @@
       align-self: flex-start;
 
       &:hover {
-        background-color: var(--blue);
+        background-color: #006eda;
         color: #ffffff;
       }
     }

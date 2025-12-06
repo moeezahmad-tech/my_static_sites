@@ -10,7 +10,7 @@
   h1 {
     font-size: 3rem;
     line-height: 1;
-    color: var(--blue);
+    color: #006eda;
     text-transform: uppercase;
     text-align: center;
   }
@@ -22,6 +22,7 @@
     flex-wrap: wrap;
     a {
       width: 30%;
+      min-width: 290px;
       img {
         width: 100%;
         border: 2px solid #ffffff;
@@ -29,7 +30,7 @@
         box-shadow: 0 2px 4px #1e8fff3b;
         transition: all 0.3s ease;
         &:hover {
-          box-shadow: 0 6px 12px var(--lowblue);
+          box-shadow: 0 6px 12px #1e8fff6c;
           transform: translateY(-5px);
           cursor: pointer;
         }
